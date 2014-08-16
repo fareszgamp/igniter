@@ -322,6 +322,9 @@ h4 {
 .main_column_section_content p {
 	margin-bottom: 10px;
 }
+.mytable {
+    margin:0 auto;
+}
 
 /* end of content */
 

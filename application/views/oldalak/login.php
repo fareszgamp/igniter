@@ -1,5 +1,4 @@
 <?php
-    $this->load->helper('html');
     $this->load->view("/szokasos/header.php");
 ?>
 </head>
@@ -15,7 +14,6 @@
             <?php $this->load->view('contents/head_menu.php');?>
             
         </div><!-- head menüsáv vége-->
-
     </div>
 
     <div id="templatemo_content">
@@ -25,7 +23,7 @@
         </div> <!-- end of side column -->
         
         <div id="main_column">
-            <?php $this->load->view('contents/frontend.php');?>
+            <?php $this->load->view('contents/login.php');?>
         <div class="cleaner"></div>
         </div> <!-- end of main column -->
     
@@ -34,3 +32,4 @@
 <?php
     $this->load->view("/szokasos/footer.php");
 ?>
+
